@@ -1,0 +1,9 @@
+﻿*.slnx
+*.sln
+*.csproj
+*.vsconfig
+Bruno-Gamedev3/.vs
+Bruno-Gamedev3/.vscode
+Bruno-Gamedev3/Logs
+Bruno-Gamedev3/obj
+Bruno-Gamedev3/Library
