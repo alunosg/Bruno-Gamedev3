@@ -15,7 +15,32 @@ public class PlayerController : MonoBehaviour
     public float minRotX = -30;
     public float maxRotX = 75;
     public Transform camTarget;
+
+
     private Vector2 moveInput;
+
+    public Transform aimImage;
+    public GameObject bulletPrefab;
+
+    public void Shoot(InputAction.CallbackContext context)
+    {
+        if(context.started)
+        {
+            Rigidbody b = Instantiate(bulletPrefab,
+                camTarget.position + camTarget.forward * 1,
+                camTarget.rotation).GetComponent<Bullet>().rig;
+
+            b.linearVelocity = rig.linearVelocity;
+
+        }
+
+
+
+
+
+
+
+    }
 
 
     public void Move(InputAction.CallbackContext context)
