@@ -151,14 +151,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 7892133513750228152}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 24e6ee352a7d9264d9bbae3241f14683, type: 3}
+  m_Script: {fileID: 11500000, guid: f02e7f81d7401e249b0ab7c40b932c5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Bullet
   rig: {fileID: 81294007623623564}
-  speed: 100
-  hitParticle: {fileID: 4021103657954561961, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
-  destroyParticle: {fileID: 2433282508537954060, guid: 3ef3ae421f71c5c4e97fe12dc2fc6312, type: 3}
+  damage: 1
+  speed: 50
   lifeTime: 5
+  hitParticle: {fileID: 2504214343621411470, guid: 3ed0d324122d7b24eaec75c55c74aafc, type: 3}
+  destroyParticle: {fileID: 2504214343621411470, guid: 3ed0d324122d7b24eaec75c55c74aafc, type: 3}
 --- !u!1001 &5722999072575551885
 PrefabInstance:
   m_ObjectHideFlags: 0
