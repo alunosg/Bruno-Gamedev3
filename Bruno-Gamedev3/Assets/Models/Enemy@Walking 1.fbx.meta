@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: b6aa7dadad5adea4f89132da96da540e
+guid: e0ed63b93a1d692419a29fbdc4ec3c52
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
   externalObjects: {}
   materials:
-    materialImportMode: 2
+    materialImportMode: 0
     materialName: 0
     materialSearch: 1
     materialLocation: 1
@@ -35,7 +35,7 @@ ModelImporter:
       takeName: mixamo.com
       internalID: -203655887218126122
       firstFrame: 0
-      lastFrame: 121
+      lastFrame: 46
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
